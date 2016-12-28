@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LittleMenghuo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_item">我的频道</string>
+    <string name="all_item">推荐频道</string>
+</resources>
