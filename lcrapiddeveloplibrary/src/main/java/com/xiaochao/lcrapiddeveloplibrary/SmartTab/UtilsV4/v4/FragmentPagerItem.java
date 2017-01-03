@@ -32,7 +32,9 @@ public class FragmentPagerItem extends PagerItem {
 
   public static FragmentPagerItem of(CharSequence title, float width,
                                      Class<? extends Fragment> clazz) {
-    return of(title, width, clazz, new Bundle());
+    Bundle bundle=new Bundle();
+    bundle.putString("title",title);
+    return of(title, width, clazz, bundle);
   }
 
   public static FragmentPagerItem of(CharSequence title, float width,
